@@ -1,0 +1,80 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+body .container {
+  height: 100%;
+  width: 100%;
+  background-image: url(raspberryLeaf.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  position: fixed;
+  overflow: auto;
+  min-width: 1050px;
+}
+body .container .sideNav {
+  height: 100%;
+  width: 250px;
+  min-width: 250px;
+  position: sticky;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.8);
+}
+body .container .sideNav .logoBox {
+  height: 200px;
+  width: 250px;
+}
+body .container .sideNav .logoBox .logoMain {
+  height: 75px;
+  margin-top: 10px;
+  color: #b4424e;
+}
+body .container .sideNav .logoBox .logoMain p {
+  font-size: 50px;
+  font-family: 'Righteous', cursive;
+}
+body .container .sideNav .logoBox .logoSecondary {
+  margin-left: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: lightgray;
+}
+body .container .sideNav .sideNavBtn {
+  height: 50px;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #c09494;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s;
+  -webkit-transition: 0.25s;
+}
+body .container .sideNav .animateForward {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+}
+body .container .sideNav #homePageBtn {
+  margin-top: 20px;
+}
+body .container .content {
+  height: 100%;
+  width: 70%;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container .content .contentCard {
+  height: 600px;
+  width: 700px;
+  background: rgba(0, 0, 0, 0.8);
+}
+body .container .content .hidden {
+  display: none;
+}

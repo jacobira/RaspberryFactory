@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>Raspberry Factory - Web Development</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script defer src="action.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sideNav">
+            <div class=logoBox>
+                <div class=logoMain>
+                    <p>Raspberry</p>
+                    <p>Factory</p>
+                </div>
+                <div class=logoSecondary>
+                    Web Development
+                </div>
+            </div>
+            <div class=sideNavBtn id="homePageBtn" onclick="toHome()" onmouseover="animateForward('#homePageBtn')" onmouseout="removeAnimateForward('#homePageBtn')">
+                Home
+            </div>
+            <div class="sideNavBtn" id="educationBtn" onclick="toEducation()" onmouseover="animateForward('#educationBtn')" onmouseout="removeAnimateForward('#educationBtn')">
+                Education
+            </div>
+            <div class="sideNavBtn" id="skillsBtn" onclick="toSkills()" onmouseover="animateForward('#skillsBtn')" onmouseout="removeAnimateForward('#skillsBtn')">
+                Skills
+            </div>
+            <div class="sideNavBtn" id="aboutMeBtn" onclick="toAboutMe()" onmouseover="animateForward('#aboutMeBtn')" onmouseout="removeAnimateForward('#aboutMeBtn')">
+                About Me
+            </div>
+            <div class="sideNavBtn" id="contactInfoBtn" onclick="toContactInfo()" onmouseover="animateForward('#contactInfoBtn')" onmouseout="removeAnimateForward('#contactInfoBtn')">
+                Contact Info
+            </div>
+        </div>
+        <div class="content">
+            <div class="contentCard hidden" id="homePage">
+
+            </div>
+            <div class="contentCard hidden" id="education">
+
+            </div>
+            <div class="contentCard hidden" id="skills">
+
+            </div>
+            <div class="contentCard hidden" id="aboutMe">
+
+            </div>
+            <div class="contentCard hidden" id="contactInfo">
+
+            </div>
+        </div>
+    </div>
+</body>
