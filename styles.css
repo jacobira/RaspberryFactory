@@ -13,6 +13,7 @@ body .container {
   display: flex;
   position: fixed;
   overflow: auto;
+  min-height: 600px;
   min-width: 1050px;
 }
 body .container .sideNav {
@@ -37,7 +38,7 @@ body .container .sideNav .logoBox .logoMain p {
   font-family: 'Righteous', cursive;
 }
 body .container .sideNav .logoBox .logoSecondary {
-  margin-left: 10px;
+  margin-left: 15px;
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   color: lightgray;
@@ -52,12 +53,13 @@ body .container .sideNav .sideNavBtn {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.25s;
-  -webkit-transition: 0.25s;
+  transition: 0.15s;
+  -webkit-transition: 0.15s;
 }
 body .container .sideNav .animateForward {
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
+  background-color: #b4424e;
 }
 body .container .sideNav #homePageBtn {
   margin-top: 20px;
@@ -67,13 +69,210 @@ body .container .content {
   width: 70%;
   margin-left: 50px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 body .container .content .contentCard {
-  height: 600px;
+  height: 500px;
   width: 700px;
   background: rgba(0, 0, 0, 0.8);
+  transition: 0.15s;
+  -webkit-transition: 0.15s;
+}
+body .container .content #homePage {
+  display: flex;
+}
+body .container .content #homePage .homeLeft {
+  height: 400px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+body .container .content #homePage .homeLeft .portrait {
+  height: 300px;
+  width: 200px;
+  background-image: url(portrait.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+body .container .content #homePage .homeRight {
+  height: 400px;
+  width: 350px;
+  margin-top: 30px;
+}
+body .container .content #homePage .homeRight .homeRightTitle {
+  margin-top: 50px;
+}
+body .container .content #homePage .homeRight .homeRightTitle #main {
+  font-family: 'Righteous', cursive;
+  color: lightgray;
+  font-size: 30px;
+}
+body .container .content #homePage .homeRight .homeRightTitle #subtitle {
+  font-family: 'Quicksand', sans-serif;
+  color: lightgray;
+  font-size: 20px;
+}
+body .container .content #homePage .homeRight .homeRightTitle #content {
+  font-family: 'Quicksand', sans-serif;
+  color: lightgray;
+  font-size: 20px;
+  margin-top: 60px;
+}
+body .container .content #education {
+  display: flex;
+  align-items: center;
+}
+body .container .content #education .logoSection {
+  height: 100%;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body .container .content #education .logoSection .logoItem {
+  margin: 0 auto;
+  background-size: contain;
+  margin-top: 50px;
+}
+body .container .content #education .logoSection #mtech {
+  height: 200px;
+  width: 200px;
+  background-image: url(mtechLogo.png);
+}
+body .container .content #education .logoSection #afhs {
+  height: 135px;
+  width: 200px;
+  background-image: url(afhsLogo.png);
+}
+body .container .content #education .textSection {
+  height: 100%;
+  width: 60%;
+  margin-left: 20px;
+}
+body .container .content #education .textSection .textBox {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: lightgray;
+}
+body .container .content #education .textSection #mtechText {
+  margin-top: 100px;
+}
+body .container .content #education .textSection #afhsText {
+  margin-top: 140px;
+}
+body .container .content #skills {
+  height: 600px;
+  display: flex;
+}
+body .container .content #skills #langLogos {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body .container .content #skills #langLogos .logoItem {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background-size: cover;
+}
+body .container .content #skills #langLogos #html5 {
+  height: 110px;
+  width: 110px;
+  margin-top: 25px;
+  background-image: url(HTML5Logo.png);
+}
+body .container .content #skills #langLogos #css3 {
+  background-image: url(CSS3Logo.png);
+}
+body .container .content #skills #langLogos #javascript {
+  height: 75px;
+  width: 75px;
+  background-image: url(JSLogo.png);
+  margin-top: 25px;
+}
+body .container .content #skills #langLogos #typescript {
+  height: 75px;
+  width: 75px;
+  background-image: url(TSLogo.png);
+  margin-top: 30px;
+}
+body .container .content #skills #langLogos #angular {
+  height: 80px;
+  width: 75px;
+  background-image: url(angularLogo.png);
+  margin-top: 25px;
+}
+body .container .content #skills #skillsContent {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+body .container .content #skills #skillsContent .textBox {
+  color: lightgray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  width: 375px;
+}
+body .container .content #aboutMe {
+  height: 600px;
+}
+body .container .content #aboutMe .textBox {
+  color: lightgray;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  margin: 40px;
+  margin-bottom: 20px;
+}
+body .container .content #aboutMe .pagePhotos {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+body .container .content #aboutMe .pagePhotos .img1 {
+  height: 200px;
+  width: 33.33333333%;
+  background-color: lightgray;
+  background-image: url(about1.jpg);
+  background-size: cover;
+}
+body .container .content #aboutMe .pagePhotos .img2 {
+  height: 200px;
+  width: 33.33333333%;
+  background-color: lightgray;
+  background-image: url(about2.jpg);
+  background-size: cover;
+}
+body .container .content #aboutMe .pagePhotos .img3 {
+  height: 200px;
+  width: 33.33333333%;
+  background-color: lightgray;
+  background-image: url(about3.jpg);
+  background-size: cover;
+}
+body .container .content #contactInfo {
+  display: flex;
+}
+body .container .content #contactInfo .iconSection {
+  width: 200px;
+  height: 100%;
+  text-align: center;
+}
+body .container .content #contactInfo .iconSection .icon {
+  height: 90px;
+  width: 90px;
+  color: lightgray;
+  font-size: 80px;
+  margin-top: 25px;
+}
+body .container .content #contactInfo .infoSection .infoText {
+  color: lightgray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin-top: 90px;
+}
+body .container .content #contactInfo .infoSection #emailInfo {
+  margin-top: 50px;
 }
 body .container .content .hidden {
   display: none;
