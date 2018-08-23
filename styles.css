@@ -162,7 +162,7 @@ body .container .content #education .textSection #afhsText {
   margin-top: 140px;
 }
 body .container .content #skills {
-  height: 600px;
+  height: 700px;
   display: flex;
 }
 body .container .content #skills #langLogos {
@@ -201,6 +201,13 @@ body .container .content #skills #langLogos #angular {
   width: 75px;
   background-image: url(angularLogo.png);
   margin-top: 25px;
+}
+body .container .content #skills #langLogos #react {
+  background-image: url(reactLogo.png);
+  height: 100px;
+  width: 100px;
+  background-position-x: -20px;
+  margin-top: 10px;
 }
 body .container .content #skills #skillsContent {
   display: flex;
