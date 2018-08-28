@@ -49,6 +49,7 @@ body {
             .sideNavBtn {
                 height: 50px;
                 width: 200px;
+                font-family: 'Quicksand', sans-serif;
                 margin: 0 auto;
                 margin-bottom: 20px;
                 background: rgb(192, 148, 148);
@@ -65,10 +66,6 @@ body {
                 -webkit-transform: scale(1.05);
                 background-color: rgb(180, 66, 78);
               }
-
-            #homePageBtn {
-                margin-top: 20px;
-            }
 
         }
     
@@ -257,6 +254,56 @@ body {
                     margin: 20px;
                     width: 375px;
                 }
+            }
+        }
+
+        //Portfolio page styles
+        #portfolio {
+
+            #react-anchor {
+                text-decoration: none;
+                color: black;
+
+                .linkButton {
+                     height: 80px;
+                     width: 180px;
+                     padding: 10px;
+                     margin: 20px;
+                     background: rgb(192, 148, 148);
+                     transition: 0.15s;
+                     -webkit-transition: 0.15s;
+                     text-decoration: none;
+
+                     .linkTitle {
+                         width: 100%;
+                         font-family: 'Quicksand', sans-serif;
+                         font-size: 20px;
+                         font-weight: bold;
+                         text-align: center;
+                         text-decoration: none;
+                     }
+                     .linkSubtitle {
+                         width: 100%;
+                         font-family: 'Quicksand', sans-serif;
+                         text-align: center;
+                         text-decoration: none;
+                     }
+                     .linkLogo {
+                         height: 40px;
+                         width: 50px;
+                         margin: 0 auto;
+                     }
+                     #reactLogo {
+                         background-image: url(reactLogo.png);
+                         background-size: cover;
+                     }
+                 }
+            }
+
+            .animateForward {
+                transform: scale(1.05);
+                -webkit-transform: scale(1.05);
+                background-color: rgb(180, 66, 78);
             }
         }
 

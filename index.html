@@ -33,6 +33,9 @@
             <div class="sideNavBtn" id="skillsBtn" onclick="toSkills()" onmouseover="animateForward('#skillsBtn')" onmouseout="removeAnimateForward('#skillsBtn')">
                 Skills
             </div>
+            <div class="sideNavBtn" id="portfolioBtn" onclick="toPortfolio()" onmouseover="animateForward('#portfolioBtn')" onmouseout="removeAnimateForward('#portfolioBtn')">
+                Portfolio
+            </div>
             <div class="sideNavBtn" id="aboutMeBtn" onclick="toAboutMe()" onmouseover="animateForward('#aboutMeBtn')" onmouseout="removeAnimateForward('#aboutMeBtn')">
                 About Jacob
             </div>
@@ -97,6 +100,15 @@
                         Organization skills, leadership skills, teamwork skills and communication skills.
                     </div>
                 </div>
+            </div>
+            <div class="contentCard hidden" id="portfolio">
+                <a id="react-anchor" href="react-timer/build/index.html">
+                    <div class="linkButton" id="react-timer" onmouseover="animateForward('#react-timer')" onmouseleave="removeAnimateForward('#react-timer')">
+                        <div class="linkTitle">Simple Timer App</div>
+                        <div class="linkSubtitle">built with React</div>
+                        <div class="linkLogo" id="reactLogo"></div>
+                    </div>
+                </a>
             </div>
             <div class="contentCard hidden" id="aboutMe">
                 <div class="textBox" id="aboutMeText">

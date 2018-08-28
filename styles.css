@@ -46,6 +46,7 @@ body .container .sideNav .logoBox .logoSecondary {
 body .container .sideNav .sideNavBtn {
   height: 50px;
   width: 200px;
+  font-family: 'Quicksand', sans-serif;
   margin: 0 auto;
   margin-bottom: 20px;
   background: #c09494;
@@ -60,9 +61,6 @@ body .container .sideNav .animateForward {
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
   background-color: #b4424e;
-}
-body .container .sideNav #homePageBtn {
-  margin-top: 20px;
 }
 body .container .content {
   height: 100%;
@@ -220,6 +218,48 @@ body .container .content #skills #skillsContent .textBox {
   font-size: 20px;
   margin: 20px;
   width: 375px;
+}
+body .container .content #portfolio #react-anchor {
+  text-decoration: none;
+  color: black;
+}
+body .container .content #portfolio #react-anchor .linkButton {
+  height: 80px;
+  width: 180px;
+  padding: 10px;
+  margin: 20px;
+  background: #c09494;
+  transition: 0.15s;
+  -webkit-transition: 0.15s;
+  text-decoration: none;
+}
+body .container .content #portfolio #react-anchor .linkButton .linkTitle {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+body .container .content #portfolio #react-anchor .linkButton .linkSubtitle {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+body .container .content #portfolio #react-anchor .linkButton .linkLogo {
+  height: 40px;
+  width: 50px;
+  margin: 0 auto;
+}
+body .container .content #portfolio #react-anchor .linkButton #reactLogo {
+  background-image: url(reactLogo.png);
+  background-size: cover;
+}
+body .container .content #portfolio .animateForward {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  background-color: #b4424e;
 }
 body .container .content #aboutMe {
   height: 600px;

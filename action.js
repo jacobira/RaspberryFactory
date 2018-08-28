@@ -18,6 +18,12 @@ function toSkills() {
     console.log("Navigated to Skills Page");
 }
 
+function toPortfolio() {
+    $(".contentCard").addClass("hidden");
+    $("#portfolio").toggleClass("hidden");
+    console.log("Navigated to Portfolio Page");
+}
+
 function toAboutMe() {
     $(".contentCard").addClass("hidden");
     $("#aboutMe").toggleClass("hidden");
