@@ -231,7 +231,6 @@ body .container .content #portfolio #react-anchor .linkButton {
   background: #c09494;
   transition: 0.15s;
   -webkit-transition: 0.15s;
-  text-decoration: none;
 }
 body .container .content #portfolio #react-anchor .linkButton .linkTitle {
   width: 100%;
@@ -239,13 +238,11 @@ body .container .content #portfolio #react-anchor .linkButton .linkTitle {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  text-decoration: none;
 }
 body .container .content #portfolio #react-anchor .linkButton .linkSubtitle {
   width: 100%;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  text-decoration: none;
 }
 body .container .content #portfolio #react-anchor .linkButton .linkLogo {
   height: 40px;
@@ -259,7 +256,6 @@ body .container .content #portfolio #react-anchor .linkButton #reactLogo {
 body .container .content #portfolio .animateForward {
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
-  background-color: #b4424e;
 }
 body .container .content #aboutMe {
   height: 600px;
